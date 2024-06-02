@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="display: flex; width: 100vw;">
+        <div class="container">
+            <div id="rock" class="control" style="background-image: url('CatRock.png');"></div>
+            <div id="paper" class="control" style="background-image: url('CatPaper.png');"> </div>
+            <div id="scissors" class="control" style="background-image: url('CatScissors.png');"></div>
+            <button class="reset">Reset</button>
+        </div>
+
+        <div class="screenContainer">
+            <div class="hand1"></div>
+            <div class="hand2"></div>    
+        </div>
+        
+
+
+
+    </div>
+    <div class="scores">
+        <h1 class="userChoice" style="width: 20%; text-align: center;">User</h1>
+        <h1 class="uScore" style="width: 10%; text-align: center;">0</h1>
+        <h1 class="result" style="width: 30%; text-align: center;">Result</h1>
+        <h1 class="cScore" style="width: 10%; text-align: center;">0</h1>
+        <h1 class="cpuChoice" style="width: 20%; text-align: center;">CPU</h1>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
